@@ -1,0 +1,193 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	background-color: rgb(25,25,25);
+	font-family: Avenir Next;
+}
+
+
+ul{
+
+    margin-top: 28px;
+	float: left;
+	list-style-type: none;
+	font-family: BankGothic Md BT;
+}
+ul li{
+	display: inline-block;
+
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: rgb(0,0,0);
+}
+ ul li.active a{
+	background-color: #fff;
+	color: rgb(0,0,0);
+}
+.menu {
+	position:fixed
+}
+.logo img{
+	margin-top: 4px;
+	margin-right: -140px;
+	float: right;
+	width: 250px;
+	height: auto;
+	position:fixed
+	padding: 10px;
+}
+.main {
+ max-width: 1200px;
+ margin: auto;
+}
+.title{
+	position: absolute;
+	top: 05%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+.title img{
+	width: 150px;
+	height: auto;
+}
+.title h1 {
+	font-family: "True Lies";
+	opacity: 0.75;
+	color: #fff;
+	font-size: px;
+}
+.Description{
+	position: absolute;
+	font-family: BankGothic Md BT;
+	top: 150%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 60px;
+	background-color: rgb(25,25,25);
+}
+.player	{
+    position: absolute;
+    top:200%;
+    left:58%; 
+    transform: translate(-50%,-50%);
+    height:500px;
+}
+.parallax1
+{
+  
+  background-image: url("../eminem.jpg");
+  height: 980px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.cover2{
+position: absolute;
+    top:193%;
+    left:32%; 
+    transform: translate(-50%,-50%);
+    
+}
+
+.video1:hover{
+	opacity: 50%;
+	transition: 0.6s ease;
+}
+.tour {
+	color: #fff;
+	font-family: BankGothic Md BT;
+	position: absolute;
+    top:375%;
+    left:50%; 
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    height:500px;
+
+}
+.tourname {
+	color: #fff;
+	font-family: BankGothic Md BT;
+	position: absolute;
+    top:385%;
+    left:50%; 
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+height:500px;
+}
+.tourname1 {
+	color: #fff;
+	font-family: BankGothic Md BT;
+	position: absolute;
+    top:400%;
+    left:50%; 
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    white-space: nowrap;
+    list-style-type: none;
+height:483px;
+}
+.video1{
+position: absolute;
+    top:500%;
+    left:50%; 
+    transform: translate(-50%,-50%);
+    width: 1920
+}
+img.video  :hover{
+	opacity: 0.3;
+
+	transition: 0.6s ease;
+	
+}
+.video2{
+position: absolute;
+    top:600%;
+    left:50%; 
+    transform: translate(-50%,-50%);
+    width: 1920
+
+}
+.video2	:hover{
+	opacity: 50%;
+	transition: 0.6s ease;
+}
+.video3{
+position: absolute;
+    top:700%;
+    left:50%; 
+    transform: translate(-50%,-50%);
+    width: 1920
+}
+.video3  :hover{
+	opacity: 0.3;
+	transition: 0.6s ease;
+}
+.video {
+	color: #fff;
+	font-family: BankGothic Md BT;
+	position: absolute;
+    top:470%;
+    left:50%; 
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    height:500px;
+
+}
